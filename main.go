@@ -91,5 +91,5 @@ func main() {
 	r.POST("/account/authenticate", AccountAuthenticate)
 
 	// listen and serve API daemon
-	r.Run(":8080")
+	r.Run(":80")
 }
