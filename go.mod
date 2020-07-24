@@ -1,4 +1,4 @@
-module github.com/s3rj1k/-646a2a92-2982-4458-9864-5fe6e113d3c3-
+module github.com/s3rj1k/646a2a92-2982-4458-9864-5fe6e113d3c3
 
 go 1.14
 
