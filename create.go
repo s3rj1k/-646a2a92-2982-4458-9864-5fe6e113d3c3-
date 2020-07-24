@@ -9,6 +9,15 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
+/*
+
+curl --http1.1 -XPOST -H "Content-type: application/json" -H "Accept: application/json" -d '{
+  "email": "test@test.com",
+  "password": "password"
+}' 'http://127.0.0.1:8080/account/create'
+
+*/
+
 // AccountCreate creates account from data provided via HTTP POST request.
 func AccountCreate(c *gin.Context) {
 	var inputAccount, dbAccount Account
